@@ -1,0 +1,38 @@
+.DetailPages {
+  width: 95%;
+  overflow: hidden;
+}
+
+.DetailPages .DPheader {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.DetailPages .DPheader > img {
+  float: left;
+  margin-left: 10px;
+}
+
+.DetailPages .DPheader > span {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: -10px;
+}
+
+.DetailPages .DPimg > img {
+  border-width: 0px;
+  width: 100%;
+  height: 250px;
+}
+
+.DetailPages .DPtitle {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 20px 10px;
+}
+
+.DetailPages .DPcontent {
+  margin: 0 10px;
+}

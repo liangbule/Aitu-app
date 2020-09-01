@@ -1,0 +1,21 @@
+.cards{
+    height: 120px;
+    
+    float: left;
+    display: flex;
+    position:relative;
+    
+  
+    .Allimg{
+        position: absolute;
+        bottom: 3px;
+        display: flex;
+        
+        >img{
+            margin-left: 12px;
+            
+        }
+      }
+}
+
+

@@ -1,0 +1,36 @@
+.DetailPages{
+    width: 95%;
+    overflow: hidden;
+    .DPheader{
+        text-align: center;
+        margin: 20px 0;
+        >img{
+            float: left;
+            margin-left: 10px;
+        }
+        >span{
+            display: inline-block;
+            font-weight: 700;
+            font-size: 18px;
+            margin-left: -10px;
+            
+        }
+    }
+    .DPimg{
+    >img{
+        border-width: 0px;
+    width: 100%;
+    height: 250px;
+    }
+    }
+    .DPtitle{
+        display: inline-block;
+            font-weight: 700;
+            font-size: 18px;
+            margin: 20px 10px;
+            
+    }
+    .DPcontent{
+        margin:0 10px;
+    }
+}

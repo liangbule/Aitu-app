@@ -1,0 +1,128 @@
+.hotel {
+  padding-bottom: 50px;
+}
+
+.TabsView {
+  width: 100vh;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+}
+
+.TabsView .header {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.TabsView .header .place {
+  flex: 1;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.TabsView .header .headerRight {
+  float: right;
+  text-align: center;
+  padding-right: 10px;
+}
+
+.TabsView .header .headerRight > p {
+  margin: 0;
+  font-size: 10px;
+}
+
+.TabsView .footer {
+  display: flex;
+  text-align: center;
+}
+
+.TabsView .footer > div {
+  flex: 1;
+  margin-top: 10px;
+}
+
+.TabsView .footer > div > p {
+  margin-bottom: 10px;
+  font-family: 'PingFangSC-Regular', 'PingFang SC';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  color: #999999;
+}
+
+.hotelCard .cardName {
+  margin: 10px 0;
+}
+
+.hotelCard .cardContent {
+  margin-left: 10px;
+  width: 100%;
+}
+
+.hotelCard .cardTag {
+  font-size: 10px;
+  margin-top: 15px;
+}
+
+.hotelCard .cardTag > span {
+  display: inline-block;
+  border: 1px solid;
+  width: 55px;
+  text-align: center;
+  margin: 0 10px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 10px;
+}
+
+.hotelCard .cardTag .cardTag1 {
+  color: #28D094;
+  border-color: #28D094;
+}
+
+.hotelCard .cardTag .cardTag2 {
+  color: rgba(102, 0, 255, 0.678431);
+  border-color: rgba(102, 0, 255, 0.678431);
+}
+
+.hotelCard .cardTag3 {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333333;
+}
+
+.hotelCard .cardSP {
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.hotelCard .cardSP > :last-child {
+  float: right;
+}
+
+.hotelCard .cardSP > span {
+  display: inline-block;
+  width: 55px;
+  text-align: center;
+  margin: 0 10px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 10px;
+}
+
+.hotelCard .cardSP .cardScore {
+  background-color: #ff6600;
+  color: #fff;
+  position: relative;
+  top: -2px;
+}
+
+.hotelCard .cardSP .cardPrice {
+  font-size: 20px;
+  color: #FF6600;
+  font-weight: 700;
+  margin-left: 20px;
+}

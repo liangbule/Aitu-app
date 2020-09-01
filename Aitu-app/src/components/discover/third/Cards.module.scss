@@ -1,0 +1,36 @@
+.cards{
+    height: 170px;
+    
+    float: left;
+    display: flex;
+    position:relative;
+    
+    .photos{
+    width: 50px;
+    height: 50px;
+    border-radius:25px;
+     margin-left: 10px;
+     margin-top: 5px;
+     
+}
+.All{
+    margin-left: 10px;
+    margin-top: 5px;
+    .H3{
+     height: 1.17rem;
+     font-weight:2px;
+    }
+    .Span{
+       
+    }
+}
+.Allimg{
+  position: absolute;
+  bottom: 3px;
+  display: flex;
+  >img{
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+}
+}

@@ -1,0 +1,44 @@
+.cards{
+    height: 170px;
+    
+    float: left;
+    display: flex;
+    position:relative;
+    
+    .photos{
+    position:relative;
+    width: 50px;
+    height: 50px;
+    border-radius:25px;
+     margin-left: 10px;
+     margin-top: 5px;
+     >img{
+        border-width: 0px;
+        position: absolute;
+        left: -10px;
+        top: -8px;
+        width: 56px;
+        height: 56px;
+    }
+
+     }
+     
+}
+.All{
+    margin-left: 10px;
+    margin-top: 5px;
+    .H3{
+     height: 1.17rem;
+     font-weight:2px;
+    }
+    
+}
+.Allimg{
+  position: absolute;
+  bottom: 3px;
+  display: flex;
+  >img{
+      margin-left: 12px;
+      
+  }
+}

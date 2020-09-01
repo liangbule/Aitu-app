@@ -1,0 +1,10 @@
+.bannerbord {
+  width: 100%;
+  height: 200px;
+  // padding: 10px;
+  box-sizing: border-box;
+  .slider-slide {
+    overflow: hidden;
+    border-radius: 10px;
+  }
+}

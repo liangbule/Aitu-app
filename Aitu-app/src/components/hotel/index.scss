@@ -1,0 +1,118 @@
+.hotel{
+    padding-bottom: 50px;
+}
+.TabsView{
+    width: 100vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    .header{
+        display: flex;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+        
+        
+.place{
+    flex: 1;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;  
+    padding-left: 10px; 
+}
+.headerRight{
+    // flex: 1;
+    float: right;
+    text-align: center;
+    padding-right: 10px;
+    >p{margin:0;font-size: 10px;}
+}
+}
+.footer{
+    display: flex;
+    text-align: center;
+    
+    >div{
+        flex:1;
+        margin-top: 10px;
+    >p{
+        margin-bottom: 10px;
+        font-family: 'PingFangSC-Regular', 'PingFang SC';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    color: #999999;
+
+    }
+    }
+
+}
+}
+
+.hotelCard{
+    .cardName{
+        margin: 10px 0;
+    }
+    .cardContent{
+        margin-left: 10px;
+        width: 100%;
+    }
+    .cardTag{
+        font-size: 10px;
+        margin-top: 15px;
+        
+        >span{
+            display: inline-block;
+            border: 1px solid;
+            width: 55px;
+            text-align: center;
+            margin:0 10px;
+            height: 20px;
+            line-height: 20px;
+            border-radius: 10px;    
+        }
+        .cardTag1{
+            color: #28D094;
+            border-color: #28D094;
+        }
+        .cardTag2{
+            
+            color: rgba(102, 0, 255, 0.67843137254902);
+            border-color: rgba(102, 0, 255, 0.67843137254902);
+        }
+       
+    }
+    .cardTag3{
+        margin-top:15px;
+        font-size: 14px;color: #333333;
+    }
+    .cardSP{
+        margin-top: 15px;
+        justify-content: center;
+        >:last-child{
+            float:right;
+        }
+        >span{
+            display: inline-block;
+            width: 55px;
+            text-align: center;
+            margin:0 10px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 10px;   
+        }
+        .cardScore{
+            background-color: rgba(255, 102, 0, 1);
+            color: #fff;
+            position: relative;
+            top: -2px;
+        }
+        .cardPrice{
+
+            font-size: 20px;
+            color: #FF6600;
+            font-weight: 700;
+            margin-left:20px ;
+            
+        }
+    }
+}

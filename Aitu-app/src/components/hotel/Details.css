@@ -1,0 +1,8 @@
+.details {
+  overflow: hidden;
+}
+
+.details > img {
+  width: 100%;
+  height: 215px;
+}
